@@ -11,13 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body id="top">
-
-    <header class="active">
+   <header class="active">
+    <!-- <header class=""> -->
         <div class="container">
             <h1><a href="#top">Mao</a></h1>
             <div class="h-btn">
@@ -27,24 +28,154 @@
             </div>
         </div>
         <nav class="fixed-memu">
-            <li><a href="#dance">dance</a></li>
             <li><a href="#art">art</a></li>
+            <li><a href="#dance">dance</a></li>
             <li><a href="#contact">contact</a></li>
         </nav>
-        
-        <div class="overlay">
-            
-        </div>
+
+        <div class="overlay"></div>
     </header>
-<!-- 
+
     <main>
-        
+        <div class="kv">
+            <video src="./movie/Video.mov" autoplay loop muted></video>
+        </div>
+
+        <div class="top-sec">
+            <div class="container">
+                <h2>Art</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./img/image7.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image8.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image9.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image10.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image11.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image12.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image13.jpeg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-sec2">
+            <div class="container">
+                <h2>Dance</h2>
+                <div class="item-list">
+                    <div class="item">
+                        <picture><img src="./img/image0.jpeg" alt=""></picture>
+                        <div>
+                            <strong>Title</strong>
+                            <p>
+                                text text text text text text text
+                                text text text text text text text
+                                text text text text text text text
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <picture><img src="./img/image0.jpeg" alt=""></picture>
+                        <div>
+                            <strong>Title</strong>
+                            <p>
+                                text text text text text text text
+                                text text text text text text text
+                                text text text text text text text
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <picture><img src="./img/image0.jpeg" alt=""></picture>
+                        <div>
+                            <strong>Title</strong>
+                            <p>
+                                text text text text text text text
+                                text text text text text text text
+                                text text text text text text text
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <picture><img src="./img/image0.jpeg" alt=""></picture>
+                        <div>
+                            <strong>Title</strong>
+                            <p>
+                                text text text text text text text
+                                text text text text text text text
+                                text text text text text text text
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <picture><img src="./img/image0.jpeg" alt=""></picture>
+                        <div>
+                            <strong>Title</strong>
+                            <p>
+                                text text text text text text text
+                                text text text text text text text
+                                text text text text text text text
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <picture><img src="./img/image0.jpeg" alt=""></picture>
+                        <div>
+                            <strong>Title</strong>
+                            <p>
+                                text text text text text text text
+                                text text text text text text text
+                                text text text text text text text
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="top-sec3">
+            <div class="container">
+                <h2>Contact</h2>
+
+                <div class="contact">
+                    <div>
+                        <h3>Title</h3>
+                        <p>
+                            text text text text text text text text
+                            text text text text text text text text <br>
+                            <br>
+                            text text text text text text text text
+                            text text text text text text text text <br>
+                            <br>
+                            text text text text text text text text
+                            text text text text text text text text
+                        </p>
+                    </div>
+                    <form action="#">
+                        <label for="name">Name</label>
+                        <input type="text" name="your-name" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="your-email" id="email">
+                        <label for="message">Message</label>
+                        <textarea type="your-message" id="message" cols="30" rows="10"></textarea>
+
+                        <button type="submit">Submit</button>
+
+                    </form>
+                </div>
+
+                <small>&copy; Mao OKada</small>
+
+            </div>
+        </div>
     </main>
 
-    <footer>
-
-    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+
 </body>
 
 </html>
